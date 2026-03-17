@@ -9,26 +9,39 @@
 <style>
     body{
         background-color: rgb(16, 0, 34);
-      color:rgb(255,255,255)
+        color: snow;
+        font-family: sans-serif;
     }
     .Sec {
-  background-color: #DDD;
-  border-radius: 20px;
+  background-color: #020079;
+  border-radius: 10px;
   padding: 10px;
   width: 70%;
   margin: auto;
 }
+
+.center-text {
+  text-align: center; 
+}
+.games-container {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 20px;
+    justify-content: space-around;  
+}
 .games{
+  position: relative;
     border-width: 2px;
     border-radius: 10px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     height: 200px;
+        margin-top: 20px;
+
     width: 200px;
 }
 p
 {
       color: red;
-  background-color: #DDD;
   padding: 10px;
   width: 70%;
   margin: auto;}
@@ -37,10 +50,18 @@ p
   </head>
   <body>
     <div class="Sec">
-    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;">Games Store</h1><br>
-    <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;">This Is My <b>games store</b>, Welcome</p>
+    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;">Games Store</h1>
+    <p style="font-family:'Franklin Gothic Medium'; text-align: center; font-size: x-large;">This Is My <b>games store</b>, Welcome</p>
     </div><br>
-    <figure><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/banner-image.jpg"> <figcaption>Assassin creed: black flag</figcaption></figure>
-    <figure><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/top-game-02.jpg"><figcaption>PUBG</figcaption></figure>
-  </body>
+    <div class="games-container">
+   <div><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/banner-image.jpg"><div class="center-text">Assassin creed: black flag</div></div>
+   <div><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/top-game-02.jpg"><div class="center-text">PUBG</div></div>
+   <div><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/categories-02.jpg"><div class="center-text">dota 2</div></div>
+   <div><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/categories-05.jpg"><div class="center-text">wareframe</div></div>
+   <div><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/top-game-06.jpg"><div class="center-text">destinty 2</div></div>
+   <div><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/categories-04.jpg"><div class="center-text">super pepole</div></div>
+   <div><img class="games" src="https://raw.githubusercontent.com/yaya1426/html/5e751d43a14754b8da91e915adf3d73f9e1f61ed/images/categories-01.jpg"><div class="center-text">brawlhalla</div></div>
+   <div><img class="games" src="https://th.bing.com/th/id/OIP.FoAIAO7vtE-P5zqY3L1ODQHaLH?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"><div class="center-text">red dead redemption 2</div></div>
+   <div><img class="games" src="https://th.bing.com/th/id/OIP.tkgCNXWG6XS9Q4EGHLWsSgHaLH?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"><div class="center-text">call of duty warzone</div></div>
+</div></body>
 </html>
